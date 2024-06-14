@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD44A0572C1B482100D1B176 /* OnTimeHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44A0562C1B482100D1B176 /* OnTimeHomePage.swift */; };
+		BD5A4B362C1B7766003424D5 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B352C1B7766003424D5 /* CalendarCell.swift */; };
+		BD5A4B382C1B77B3003424D5 /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B372C1B77B3003424D5 /* MonthStruct.swift */; };
+		BD5A4B3A2C1B77DC003424D5 /* CalendarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B392C1B77DC003424D5 /* CalendarSwiftUIApp.swift */; };
+		BD5A4B3C2C1B7801003424D5 /* OTContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B3B2C1B7801003424D5 /* OTContentView.swift */; };
+		BD5A4B3E2C1B783B003424D5 /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B3D2C1B783B003424D5 /* DateScrollerView.swift */; };
+		BD5A4B402C1B7866003424D5 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B3F2C1B7866003424D5 /* CalendarHelper.swift */; };
+		BD5A4B422C1B788D003424D5 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B412C1B788D003424D5 /* DateHolder.swift */; };
+		BD5A4B442C1B8354003424D5 /* UpdatedTimerOnTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B432C1B8354003424D5 /* UpdatedTimerOnTime.swift */; };
+		BD5A4B462C1B83B9003424D5 /* BackgroundUpdatedTimerOnTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B452C1B83B9003424D5 /* BackgroundUpdatedTimerOnTime.swift */; };
+		BD5A4B482C1B8D69003424D5 /* ScheduleContentViewOT.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B472C1B8D69003424D5 /* ScheduleContentViewOT.swift */; };
+		BD5A4B4A2C1B8DFA003424D5 /* NewScheduleOnTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B492C1B8DFA003424D5 /* NewScheduleOnTime.swift */; };
+		BD5A4B4C2C1B8E9D003424D5 /* ViewAndEditScheduleOnTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A4B4B2C1B8E9D003424D5 /* ViewAndEditScheduleOnTime.swift */; };
 		BDA3583A2C18CA2A00EF2E43 /* OnTimeHomePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA358392C18CA2A00EF2E43 /* OnTimeHomePageApp.swift */; };
 		BDA3583C2C18CA2A00EF2E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA3583B2C18CA2A00EF2E43 /* ContentView.swift */; };
 		BDA3583E2C18CA2B00EF2E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA3583D2C18CA2B00EF2E43 /* Assets.xcassets */; };
 		BDA358412C18CA2B00EF2E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA358402C18CA2B00EF2E43 /* Preview Assets.xcassets */; };
+		BDE96AFA2C1A24DF00204AB1 /* OnTimeResourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE96AF92C1A24DF00204AB1 /* OnTimeResourcesPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD44A0562C1B482100D1B176 /* OnTimeHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTimeHomePage.swift; sourceTree = "<group>"; };
+		BD5A4B352C1B7766003424D5 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		BD5A4B372C1B77B3003424D5 /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
+		BD5A4B392C1B77DC003424D5 /* CalendarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSwiftUIApp.swift; sourceTree = "<group>"; };
+		BD5A4B3B2C1B7801003424D5 /* OTContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTContentView.swift; sourceTree = "<group>"; };
+		BD5A4B3D2C1B783B003424D5 /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
+		BD5A4B3F2C1B7866003424D5 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		BD5A4B412C1B788D003424D5 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		BD5A4B432C1B8354003424D5 /* UpdatedTimerOnTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedTimerOnTime.swift; sourceTree = "<group>"; };
+		BD5A4B452C1B83B9003424D5 /* BackgroundUpdatedTimerOnTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUpdatedTimerOnTime.swift; sourceTree = "<group>"; };
+		BD5A4B472C1B8D69003424D5 /* ScheduleContentViewOT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleContentViewOT.swift; sourceTree = "<group>"; };
+		BD5A4B492C1B8DFA003424D5 /* NewScheduleOnTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScheduleOnTime.swift; sourceTree = "<group>"; };
+		BD5A4B4B2C1B8E9D003424D5 /* ViewAndEditScheduleOnTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAndEditScheduleOnTime.swift; sourceTree = "<group>"; };
 		BDA358362C18CA2A00EF2E43 /* OnTimeHomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTimeHomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA358392C18CA2A00EF2E43 /* OnTimeHomePageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTimeHomePageApp.swift; sourceTree = "<group>"; };
 		BDA3583B2C18CA2A00EF2E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA3583D2C18CA2B00EF2E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA358402C18CA2B00EF2E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE96AF92C1A24DF00204AB1 /* OnTimeResourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTimeResourcesPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +80,21 @@
 			isa = PBXGroup;
 			children = (
 				BDA358392C18CA2A00EF2E43 /* OnTimeHomePageApp.swift */,
+				BDE96AF92C1A24DF00204AB1 /* OnTimeResourcesPage.swift */,
 				BDA3583B2C18CA2A00EF2E43 /* ContentView.swift */,
+				BD44A0562C1B482100D1B176 /* OnTimeHomePage.swift */,
+				BD5A4B352C1B7766003424D5 /* CalendarCell.swift */,
+				BD5A4B372C1B77B3003424D5 /* MonthStruct.swift */,
+				BD5A4B392C1B77DC003424D5 /* CalendarSwiftUIApp.swift */,
+				BD5A4B3B2C1B7801003424D5 /* OTContentView.swift */,
+				BD5A4B432C1B8354003424D5 /* UpdatedTimerOnTime.swift */,
+				BD5A4B472C1B8D69003424D5 /* ScheduleContentViewOT.swift */,
+				BD5A4B4B2C1B8E9D003424D5 /* ViewAndEditScheduleOnTime.swift */,
+				BD5A4B492C1B8DFA003424D5 /* NewScheduleOnTime.swift */,
+				BD5A4B452C1B83B9003424D5 /* BackgroundUpdatedTimerOnTime.swift */,
+				BD5A4B3D2C1B783B003424D5 /* DateScrollerView.swift */,
+				BD5A4B3F2C1B7866003424D5 /* CalendarHelper.swift */,
+				BD5A4B412C1B788D003424D5 /* DateHolder.swift */,
 				BDA3583D2C18CA2B00EF2E43 /* Assets.xcassets */,
 				BDA3583F2C18CA2B00EF2E43 /* Preview Content */,
 			);
@@ -137,8 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE96AFA2C1A24DF00204AB1 /* OnTimeResourcesPage.swift in Sources */,
+				BD5A4B3C2C1B7801003424D5 /* OTContentView.swift in Sources */,
+				BD5A4B3A2C1B77DC003424D5 /* CalendarSwiftUIApp.swift in Sources */,
+				BD5A4B362C1B7766003424D5 /* CalendarCell.swift in Sources */,
+				BD5A4B382C1B77B3003424D5 /* MonthStruct.swift in Sources */,
+				BD5A4B3E2C1B783B003424D5 /* DateScrollerView.swift in Sources */,
+				BD5A4B482C1B8D69003424D5 /* ScheduleContentViewOT.swift in Sources */,
+				BD5A4B422C1B788D003424D5 /* DateHolder.swift in Sources */,
+				BD5A4B4C2C1B8E9D003424D5 /* ViewAndEditScheduleOnTime.swift in Sources */,
+				BD5A4B402C1B7866003424D5 /* CalendarHelper.swift in Sources */,
+				BD44A0572C1B482100D1B176 /* OnTimeHomePage.swift in Sources */,
 				BDA3583C2C18CA2A00EF2E43 /* ContentView.swift in Sources */,
+				BD5A4B462C1B83B9003424D5 /* BackgroundUpdatedTimerOnTime.swift in Sources */,
 				BDA3583A2C18CA2A00EF2E43 /* OnTimeHomePageApp.swift in Sources */,
+				BD5A4B442C1B8354003424D5 /* UpdatedTimerOnTime.swift in Sources */,
+				BD5A4B4A2C1B8DFA003424D5 /* NewScheduleOnTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

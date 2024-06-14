@@ -5,14 +5,24 @@
 //  Created by Scholar on 6/13/24.
 //
 
+import Foundation
 import SwiftUI
 
-struct MonthStruct: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+struct MonthStruct
+{
+    var monthType: MonthType
+    var dayInt : Int
+    func day() -> String
+    {
+        return String(dayInt)
     }
 }
 
-#Preview {
-    MonthStruct()
+enum MonthType
+{
+    case Previous
+    case Current
+    case Next
 }
+

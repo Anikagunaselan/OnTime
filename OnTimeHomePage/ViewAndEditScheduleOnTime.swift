@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct ThirdView: View {
+struct ViewAndEditScheduleOnTime: View {
     
     @EnvironmentObject var scheduleState: ScheduleState
     
@@ -69,6 +69,6 @@ struct ThirdView: View {
     }
 }
 
-//#Preview {
-//    ThirdView()
-//}
+#Preview {
+    ViewAndEditScheduleOnTime()
+}

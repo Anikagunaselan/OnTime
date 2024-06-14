@@ -11,7 +11,9 @@ import SwiftUI
 struct OnTimeHomePageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                let dateHolder = DateHolder()
+                ContentView()
+                .environmentObject(dateHolder)
         }
     }
 }
